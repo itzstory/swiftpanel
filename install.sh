@@ -48,6 +48,7 @@ define('DBPASSWORD','gpstory22');
 ?>
 EOF
 service httpd restart
+sudo yum -y install epel-release wget subversion git mariadb-server
 
 clear
 
