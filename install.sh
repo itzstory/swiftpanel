@@ -19,7 +19,7 @@ php -i | grep extension_dir
 extension_dir => /usr/lib64/php/modules => /usr/lib64/php/modules
 cp /tmp/ioncube/ioncube_loader_lin_5.4.so /usr/lib64/php/modules
 sudo yum install nano
-echo zend_extension = /usr/lib64/php/modules/ioncube_loader_lin_5.4.so > /etc/php.ini
+echo "zend_extension = /usr/lib64/php/modules/ioncube_loader_lin_5.4.so" >> /etc/php.ini
 systemctl restart httpd
 
 cd
