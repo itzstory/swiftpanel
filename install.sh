@@ -32,7 +32,7 @@ systemctl restart httpd
 
 cd /var/www/html
 rm -rf index.html
-wget https://download1484.mediafire.com/tokvcx6arqvg/uj8zlcx80rzetgl/swiftpanel.zip
+wget https://download1484.mediafire.com/xw4nfpnz8rhg/uj8zlcx80rzetgl/swiftpanel.zip
 unzip swiftpanel.zip
 rm -rf swiftpanel.zip
 cd .. 
