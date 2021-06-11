@@ -32,9 +32,11 @@ systemctl restart httpd
 
 cd /var/www/html
 rm -rf index.html
-wget https://download1484.mediafire.com/xw4nfpnz8rhg/uj8zlcx80rzetgl/swiftpanel.zip
-unzip swiftpanel.zip
-rm -rf swiftpanel.zip
+yum install unzip
+wget https://github.com/zer0xpl0ide/Swift-Panel/raw/master/SwiftPanel.zip
+unzip SwiftPanel.zip
+rm -rf SwiftPanel.zip
+rm -rf configuration-dist.php
 cd .. 
 chmod -R 777 html
 
